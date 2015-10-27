@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+    background-image: url("../portrait.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.maincontent {
+    padding: 30px;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.headline {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.bodytext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.navigation {
+    width-max: auto;
+    height: auto;
+}
+
+.horizontalnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontalnav li {
+    display: inline-block;
+}
